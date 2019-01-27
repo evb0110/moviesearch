@@ -1,4 +1,4 @@
-// const axios = require("axios");
+// https://api.themoviedb.org/3/search/movie?api_key=e9ddb24aed6d48c4342303aba5269e28&query=russian
 
 const apiKey = `e9ddb24aed6d48c4342303aba5269e28`;
 const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=`;
