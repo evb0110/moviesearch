@@ -39,15 +39,7 @@ h1 {
   background-color: rgb(241, 241, 241);
 }
 
-@media (max-width: 500px) {
-  .card {
-    margin: 5px;
-  }
-  .movies-list {
-    padding: 2%;
-  }
-  
-}
+
 
 .card:hover {
   cursor: pointer;
@@ -72,4 +64,14 @@ img {
 
 .eng-title {
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .card {
+    margin: 5px;
+  }
+  .movies-list {
+    padding: 2%;
+  }
+  
 }
