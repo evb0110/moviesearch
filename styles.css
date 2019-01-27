@@ -67,7 +67,7 @@ img {
   font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .movie-info {
     width: 90%;
     padding-bottom: 0;
