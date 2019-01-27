@@ -43,6 +43,10 @@ h1 {
   .card {
     margin: 5px;
   }
+  .movies-list {
+    padding: 2%;
+  }
+  
 }
 
 .card:hover {
