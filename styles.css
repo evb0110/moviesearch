@@ -2,6 +2,7 @@ html {
   font-size: 30px;
   background-color: rgba(233, 238, 224, 0.5);
   overflow-y: scroll;
+  width: 100vw;
 }
 
 .form-container {
