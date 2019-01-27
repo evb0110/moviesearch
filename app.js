@@ -2,7 +2,7 @@
 
 const apiKey = `e9ddb24aed6d48c4342303aba5269e28`;
 const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=`;
-const imgUrl = `http://image.tmdb.org/t/p/w300/`;
+const imgUrl = `http://image.tmdb.org/t/p/w200/`;
 
 document.querySelector(".form").addEventListener("submit", event => {
   event.preventDefault();
@@ -45,7 +45,7 @@ document.querySelector(".form").addEventListener("submit", event => {
         node.appendChild(text3);
         const poster = document.createElement("img");
         poster.src = `${imgUrl}${record.poster_path}`;
-        poster.alt = `poster for "${record.title}"`;
+        poster.alt = `poster for "${record.title}" unavailable`;
         card.appendChild(node);
         card.appendChild(poster);
 
