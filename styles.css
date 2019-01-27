@@ -38,6 +38,12 @@ h1 {
   background-color: rgb(241, 241, 241);
 }
 
+@media (max-width: 500px) {
+  .card {
+    margin: 5px;
+  }
+}
+
 .card:hover {
   cursor: pointer;
   box-shadow: 0 3px 3px 1px gray;
